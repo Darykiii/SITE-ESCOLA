@@ -1,7 +1,11 @@
 .cabeçalho{
 background-color: rgb(112, 30, 160);
 color: rgb(255, 255, 255);
+display: flex;
+justify-content: space-around;
+padding: 24px 0;
 }
 .cabeçalho-imagem{
-    width: 50%;
+    width: 30%;
+
 }
