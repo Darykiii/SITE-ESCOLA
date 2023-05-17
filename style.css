@@ -1,57 +1,83 @@
-*{
-    margin: 0%;
-    padding: 0%;
+body{
+    font-family: 'Poppins', sans-serif;
 }
-.cabeçalho{
 
-background-color: rgb(0, 0, 0);
-color: rgb(255, 255, 255);
-display: flex;
-justify-content: space-around;
-padding: 24px 0;
+.cabeçalho{
+    background-color: #011e5e;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Cabeçalho-imagem{
+    width: 10%;
+}
+
+.cabeçalho-lista-item{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+}
+
+.High-School-rafiki{
+    width: 25%;
 }
 
 .escola{
-background-image: linear-gradient(rgb(0, 0, 0), rgb(183, 0, 255));
-color: blanchedalmond;
+    background-image: linear-gradient(#011e5e, #3fb6aa);
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
 }
 
-.cabeçalho-imagem{
-    width: 20%;
-}
-.escola-imagem{
-    width: 30%;
+.escola-div{
+    width: 35%;
 }
 
-.estudante-nome{
-width: 15%;
-
+.sobre-a-escola{
+    padding: 24px 0px;
 }
 
-.estudante-ícone{
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Alunos{
+    background-image: linear-gradient(#3fb6aa, #77ffe8);
+}
+
+.Eu{
+    width: 150px;
+}
+
+.estudante-logo{
+    width: 24px;
+}
+
+.estudante-div{
+    text-align: center;
+}
+
+.alunos-titulo{
+    text-align: center;
+    padding: 50px;
+}
+
+.todos-alunos{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color: #77ffe8;
+    text-align: center;
+}
+
+.rodape-imagem{
     width: 10%;
-
-}
-.estudante-imagem{
-width: 25%;
-
-}
-
-
-.estudante-imagem2{
-    width: 25%;
-
-}
-.estudante-imagem3{
-    width: 25%;
-
-}
-.estudante-imagem4{
-    width: 25%;
-
-}
-
-.estudante{
-    background-image: linear-gradient(rgb(183, 0, 255), rgb(48, 0, 124));
-    color: blanchedalmond;
+    padding: 12px 0px;
 }
