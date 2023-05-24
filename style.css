@@ -3,7 +3,7 @@ body{
 }
 
 .cabeçalho{
-    background-color: #011e5e;
+    background-color: #000000;
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: space-around;
@@ -25,7 +25,7 @@ body{
 }
 
 .escola{
-    background-image: linear-gradient(#011e5e, #3fb6aa);
+    background-image: linear-gradient(#000000, #6c1c6e);
     color: rgb(255, 255, 255);
     display: flex;
     justify-content: center;
@@ -47,7 +47,7 @@ body{
 }
 
 .Alunos{
-    background-image: linear-gradient(#3fb6aa, #77ffe8);
+    background-image: linear-gradient(#6c1c6e, #030435);
 }
 
 .Eu{
@@ -73,7 +73,7 @@ body{
 }
 
 .rodape{
-    background-color: #77ffe8;
+    background-color: #000000;
     text-align: center;
 }
 
